@@ -1,7 +1,8 @@
 
 //importing
 import './style.css'
-import * as THREE from './three.module.js';
+import * as THREE from 'https://unpkg.com/three@0.160.0/build/three.module.js';
+
 
 //the developer has trauma from js :(
 
