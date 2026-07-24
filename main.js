@@ -1,7 +1,8 @@
 
 //importing
 import './style.css'
-import * as THREE from 'three';
+import * as THREE from './three.module.js'
+
 
 
 //the developer has trauma from js :(
