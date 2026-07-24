@@ -1,9 +1,7 @@
 
 //importing
 import './style.css'
-import * as THREE from './three.module.js'
-
-
+import * as THREE from './three.module.js';
 
 //the developer has trauma from js :(
 
@@ -40,7 +38,7 @@ pointLight.position.set( 20,20,20 )
 const ambientLight = new THREE.AmbientLight( 0xFFFFFF );
 
 //making mahito
-const mahitoTexture = new THREE.TextureLoader().load('mahito.jpg');
+const mahitoTexture = new THREE.TextureLoader().load('Mahito.jpg');
 const mahito = new THREE.Mesh( new THREE.BoxGeometry(5, 5, 5), new THREE.MeshBasicMaterial( {map: mahitoTexture} ) );
 
 //making stars (from tutorial)
