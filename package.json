@@ -12,4 +12,8 @@
   "dependencies": {
     "three": "^0.128.0"
   }
+  "homepage": "https://object-oriented-idiot.github.io/YSWS-project-thing-X3/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
 }
