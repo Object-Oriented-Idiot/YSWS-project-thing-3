@@ -1,22 +1,8 @@
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-const firebaseConfig = {
-  apiKey: "AIzaSyAH6ebG9RkHIe3yxzkbD1Ldj0AVnHdebYc",
-  authDomain: "arp-ysws-thing-x33333.firebaseapp.com",
-  projectId: "arp-ysws-thing-x33333",
-  storageBucket: "arp-ysws-thing-x33333.firebasestorage.app",
-  messagingSenderId: "603763155412",
-  appId: "1:603763155412:web:fd16d8ec23d48ff5c7b641",
-  measurementId: "G-RDRC5PSNEJ"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 
 //importing
 import './style.css'
 import * as THREE from 'three';
+
 
 //the developer has trauma from js :(
 
@@ -32,8 +18,6 @@ camera.position.setZ(30);
 camera.position.setX(-3);
 renderer.render(scene, camera);
 scene.background = 0x0F6FF7;
-
-
 
 
 
@@ -71,8 +55,6 @@ function addStar() {
   star.position.set(x, y, z);
   scene.add(star);
 }
-
-
 
 
 //adding everything to canvas
