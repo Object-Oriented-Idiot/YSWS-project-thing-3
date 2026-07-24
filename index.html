@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <main>
+      <header>
+        <h1>ADRESS RESOLUTION PROTOCOL</h1>
+        <p>explained.</p>
+      </header>
+      <section class="left">
+        <p>ARP:<br> The Address Resolution Protocol (ARP) is a communication protocol for discovering the link layer address, such as a MAC address, associated with an internet layer address, typically an IPv4 address. </p>
+      </section>
+      <section class="light">
+        <p>Functionality:<br> ARP enables a host to send an IPv4 packet to another node in the local network by providing a protocol to get the MAC address associated with an IP address.</p>
+      </section>
+      <section class="left">
+        <p>Implementation:<br> ARP has been implemented with many combinations of network and data link layer technologies, such as IPv4, Chaosnet, DECnet, and Xerox PARC Universal Packet (PUP) using IEEE 802 standards, FDDI, X.25, Frame Relay, and Asynchronous Transfer Mode (ATM).</p>
+      </section>
+      <section class="light">
+        <p>IPv6:<br> In Internet Protocol Version 6 (IPv6) networks, the functionality of ARP is provided by the Neighbor Discovery Protocol (NDP).</p>
+      </section>
+      <section class="left">
+        <p>Message Format:<br> ARP uses a simple message format containing one address resolution request or response.<br>
+           The packets are carried at the data link layer of the underlying network as raw payload.</p>
+      </section>
+      <section class="light">
+        <p>ARP Cache:<br> ARP Cache is a temporary storage table maintained by a device.<br> It stores recently resolved IP-to-MAC address mappings.</p>
+      </section>
+      <section class="left">
+        <p>ARP Request:<br> ARP Request is a broadcast message sent to all devices in the local network.<br> It asks, “Who has this IP address?”</p>
+      </section>
+      <section class="light">
+        <p>ARP Reply:<br> ARP Reply (ARP Response) is a unicast message sent by the device that owns the requested IP address.
+          It contains the corresponding MAC address.</p>
+      </section>
+      <section class="left">
+        <p>Types of ARP:<br> There are four main types of ARP, each used in different scenarios: Proxy ARP, Gratuitous ARP, and others. </p>
+      </section>
+      <section class="light">
+        <p>Dynamic Mapping:<br> ARP provides a dynamic mapping from an IP address to the corresponding hardware address.</p>
+      </section>
+</main>
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" />
+    <title>arp</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <canvas id="bg">
+
+    </canvas>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
+
